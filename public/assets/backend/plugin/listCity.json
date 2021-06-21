@@ -1,0 +1,331 @@
+[{
+        "city": "Cần Thơ",
+        "province": "Cần Thơ",
+        "area": "1,408.9"
+    },
+    {
+        "city": "Đà Nẵng",
+        "province": "Đà Nẵng",
+        "area": "1,285.4"
+    },
+    {
+        "city": "Hải Phòng",
+        "province": "Hải Phòng",
+        "area": "1,527.4"
+    },
+    {
+        "city": "Hà Nội",
+        "province": "Hà Nội",
+        "area": "3,324.5"
+    },
+    {
+        "city": "Hồ Chí Minh",
+        "province": "Hồ Chí Minh",
+        "area": "2,095.5"
+    },
+    {
+        "city": "Bà Rịa",
+        "province": "Bà Rịa–Vũng Tàu",
+        "area": "91.46"
+    },
+    {
+        "city": "Bạc Liêu",
+        "province": "Bạc Liêu",
+        "area": "175.4"
+    },
+    {
+        "city": "Bắc Giang",
+        "province": "Bắc Giang",
+        "area": "32.21"
+    },
+    {
+        "city": "Bắc Ninh",
+        "province": "Bắc Ninh",
+        "area": "80.28"
+    },
+    {
+        "city": "Bảo Lộc",
+        "province": "Lâm Đồng",
+        "area": "232.56"
+    },
+    {
+        "city": "Biên Hòa",
+        "province": "Đồng Nai",
+        "area": "264.07"
+    },
+    {
+        "city": "Bến Tre",
+        "province": "Bến Tre",
+        "area": "67.48"
+    },
+    {
+        "city": "Buôn Ma Thuột",
+        "province": "Đắk Lắk",
+        "area": "370.00"
+    },
+    {
+        "city": "Cà Mau",
+        "province": "Cà Mau",
+        "area": "250.3"
+    },
+    {
+        "city": "Cẩm Phả",
+        "province": "Quảng Ninh",
+        "area": "486.4"
+    },
+    {
+        "city": "Cao Lãnh",
+        "province": "Đồng Tháp",
+        "area": "107.195"
+    },
+    {
+        "city": "Châu Đốc",
+        "province": "An Giang",
+        "area": "105.290"
+    },
+    {
+        "city": "Đà Lạt",
+        "province": "Lâm Đồng",
+        "area": "393.29"
+    },
+    {
+        "city": "Điện Biên Phủ",
+        "province": "Điện Biên",
+        "area": "60.09"
+
+    },
+    {
+        "city": "Đông Hà",
+        "province": "Quảng Trị",
+        "area": "73.06"
+
+    },
+    {
+        "city": "Đồng Hới",
+        "province": "Quảng Bình",
+        "area": "155.54"
+    },
+    {
+        "city": "Hà Tĩnh",
+        "province": "Hà Tĩnh",
+        "area": "56.19"
+    },
+    {
+        "city": "Hạ Long",
+        "province": "Quảng Ninh",
+        "area": "208.7"
+    },
+    {
+        "city": "Hải Dương",
+        "province": "Hải Dương",
+        "area": "71.39"
+    },
+    {
+        "city": "Hòa Bình",
+        "province": "Hòa Bình",
+        "area": "148.2"
+
+    },
+    {
+        "city": "Hội An",
+        "province": "Quảng Nam",
+        "area": "61.47"
+    },
+    {
+        "city": "Huế",
+        "province": "Thừa Thiên–Huế",
+        "area": "83.3"
+    },
+    {
+        "city": "Hưng Yên",
+        "province": "Hưng Yên",
+        "area": "46.8"
+    },
+    {
+        "city": "Kon Tum",
+        "province": "Kon Tum",
+        "area": "432.98"
+    },
+    {
+        "city": "Lạng Sơn",
+        "province": "Lạng Sơn",
+        "area": "79.0"
+    },
+    {
+        "city": "Lào Cai",
+        "province": "Lào Cai",
+        "area": "221.5"
+
+    },
+    {
+        "city": "Long Xuyên",
+        "province": "An Giang",
+        "area": "106.87"
+    },
+    {
+        "city": "Móng Cái",
+        "province": "Quảng Ninh",
+        "area": "518.28"
+    },
+    {
+        "city": "Mỹ Tho",
+        "province": "Tiền Giang",
+        "area": "79.8"
+    },
+    {
+        "city": "Nam Định",
+        "province": "Nam Định",
+        "area": "46.4"
+    },
+    {
+        "city": "Ninh Bình",
+        "province": "Ninh Bình",
+        "area": "48.3"
+    },
+    {
+        "city": "Nha Trang",
+        "province": "Khánh Hòa",
+        "area": "251.0"
+    },
+    {
+        "city": "Cam Ranh",
+        "province": "Khánh Hòa",
+        "area": "325.0"
+    },
+    {
+        "city": "Phan Rang–Tháp Chàm",
+        "province": "Ninh Thuận",
+        "area": "79.37"
+    },
+    {
+        "city": "Phan Thiết",
+        "province": "Bình Thuận",
+        "area": "206.0"
+    },
+    {
+        "city": "Phủ Lý",
+        "province": "Hà Nam",
+        "area": "34.27"
+    },
+    {
+        "city": "Pleiku",
+        "province": "Gia Lai",
+        "area": "260.61"
+    },
+    {
+        "city": "Quảng Ngãi",
+        "province": "Quảng Ngãi",
+        "area": "37.12"
+    },
+    {
+        "city": "Quy Nhơn",
+        "province": "Bình Định",
+        "area": "284.28"
+    },
+    {
+        "city": "Rạch Giá",
+        "province": "Kiên Giang",
+        "area": "97.75"
+    },
+    {
+        "city": "Sa Đéc",
+        "province": "Đồng Tháp",
+        "area": "59.81"
+    },
+    {
+        "city": "Sóc Trăng",
+        "province": "Sóc Trăng",
+        "area": "76.15"
+    },
+    {
+        "city": "Sơn La",
+        "province": "Sơn La",
+        "area": "324.93"
+    },
+    {
+        "city": "Tam Kỳ",
+        "province": "Quảng Nam",
+        "area": "92.63"
+    },
+    {
+        "city": "Tân An",
+        "province": "Long An",
+        "area": "81.79"
+    },
+    {
+        "city": "Thái Bình",
+        "province": "Thái Bình",
+        "area": "67.7"
+    },
+    {
+        "city": "Thái Nguyên",
+        "province": "Thái Nguyên",
+        "area": "189.70"
+    },
+    {
+        "city": "Thanh Hóa",
+        "province": "Thanh Hóa",
+        "area": "57.8"
+    },
+    {
+        "city": "Trà Vinh",
+        "province": "Trà Vinh",
+        "area": "68.03"
+    },
+    {
+        "city": "Tuy Hòa",
+        "province": "Phú Yên",
+        "area": "212.62"
+    },
+    {
+        "city": "Tuyên Quang",
+        "province": "Tuyên Quang",
+        "area": "119.17"
+    },
+    {
+        "city": "Uông Bí",
+        "province": "Quảng Ninh",
+        "area": "256.3"
+    },
+    {
+        "city": "Việt Trì",
+        "province": "Phú Thọ",
+        "area": "110.99"
+
+    },
+    {
+        "city": "Vinh",
+        "province": "Nghệ An",
+        "area": "104.98"
+
+    },
+    {
+        "city": "Vĩnh Yên",
+        "province": "Vĩnh Phúc",
+        "area": "50.80"
+
+    },
+    {
+        "city": "Vĩnh Long",
+        "province": "Vĩnh Long",
+        "area": "48.01"
+
+    },
+    {
+        "city": "Vũng Tàu",
+        "province": "Bà Rịa–Vũng Tàu",
+        "area": "141.1"
+    },
+    {
+        "city": "Yên Bái",
+        "province": "Yên Bái",
+        "area": "108.155"
+
+    },
+    {
+        "city": "Cao Bằng",
+        "province": "Cao Bằng",
+        "area": "107.6"
+
+    }
+]

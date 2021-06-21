@@ -1,0 +1,765 @@
+/* Loader */
+
+#bg-loader {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #FFF;
+    z-index: 99999;
+    opacity: 0.5;
+    display: none;
+}
+
+.loader,
+.loader:before,
+.loader:after {
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation: load7 1.8s infinite ease-in-out;
+    animation: load7 1.8s infinite ease-in-out;
+}
+.button {
+    padding: 9px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.loader {
+    color: #000000;
+    font-size: 10px;
+    margin: 80px auto;
+    position: relative;
+    text-indent: -9999em;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+    top: 20%;
+}
+
+.loader:before,
+.loader:after {
+    content: '';
+    position: absolute;
+    top: 0;
+}
+
+.loader:before {
+    left: -3.5em;
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.loader:after {
+    left: 3.5em;
+}
+
+@-webkit-keyframes load7 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 2.5em 0 -1.3em;
+    }
+    40% {
+        box-shadow: 0 2.5em 0 0;
+    }
+}
+
+@keyframes load7 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 2.5em 0 -1.3em;
+    }
+    40% {
+        box-shadow: 0 2.5em 0 0;
+    }
+}
+
+
+/* Status order hold */
+
+.badge-hold-choxuly {
+    background-color: #141ED2;
+}
+
+.badge-hold-done {
+    background-color: #00CE00;
+}
+
+.badge-hold-matso {
+    background-color: #000000;
+}
+
+.badge-hold-cancel {
+    background-color: #C80000;
+}
+
+.badge-hold-bihold {
+    background-color: #FCC103;
+}
+
+
+/* end */
+
+
+/* status order */
+
+.badge-cho-duyet {
+    background-color: #FFD966;
+}
+
+.badge-6-yc-bo-sung {
+    background-color: #FF6666;
+}
+
+.badge-7-chuyen-bank-bo-sung {
+    background-color: #66B2FF;
+}
+
+.badge-8-yc-bo-sung {
+    background-color: #FF0000;
+}
+
+.badge-9-16-chuyen-bank-bo-sung {
+    background-color: #B266FF;
+}
+
+.badge-11-15-chuyen-bank-bo-sung {
+    background-color: #330066;
+}
+
+.badge-cancel {
+    background-color: #F0A30A;
+}
+
+.badge-done-trinh {
+    background-color: #0050EF;
+}
+
+.badge-done-ten {
+    background-color: #00CC00;
+}
+
+.badge-chuyen-bank {
+    background-color: #007FFF;
+}
+
+
+/* end */
+
+input {
+    display: flex;
+    display: -webkit-flex;
+    flex: 1 0 0;
+    -webkit-flex: 1 0 0;
+}
+
+td#td-reason {
+    display: none;
+}
+
+div#order-list-admin input {
+    border-radius: 10px;
+}
+
+.tel-phone {
+    color: #333!important;
+}
+
+.table-list-bank i {
+    display: none;
+}
+
+.form-tuvannhanh label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.badge {
+    color: #FFF;
+    border-radius: 10px;
+}
+
+#code-order {
+    display: none;
+}
+
+#td-order {
+    flex-direction: column;
+}
+
+.preview-image img {
+    width: 50px;
+    height: 50px;
+}
+
+i.fa.fa-ellipsis-v {
+    font-size: 24px;
+}
+
+.btn-upload-image {
+    background-color: #B8B8B8!important;
+    color: #000!important;
+}
+
+.cancel-btn {
+    background-color: #515151!important;
+    border-color: #515151!important;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.sidebar-xs .nav-sidebar-user {
+    display: none;
+}
+
+.dropdown-menu {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-ckfinder {
+    background-color: #B8B8B8!important;
+    border-radius: 0;
+    color: #000;
+}
+
+.card-header .card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+td#td-address i {
+    display: none;
+}
+
+.filter-order {
+    position: absolute;
+    right: 20px;
+    margin-top: 20px;
+    z-index: 99;
+}
+
+
+/* Header */
+
+img.logo-header {
+    height: 1.6rem;
+    margin-top: 12px;
+}
+
+.logo-icon {
+    margin-top: 15px;
+}
+
+.btn {
+    background-color: #CF0000;
+    color: #FFF;
+}
+
+
+/* Siderbar */
+
+.card-body.card-body-sidebar-top {
+    margin: 1rem;
+    padding: 0 10px 20px 10px;
+    border-bottom: 2px solid;
+}
+
+.nav-sidebar-user {
+    bottom: 0;
+    position: absolute;
+    width: 12.875rem;
+}
+
+.nav-sidebar-user ul {
+    border-top: 2px solid #FFF;
+}
+
+label span {
+    color: red;
+}
+
+#time-update-status {
+    display: none;
+}
+
+
+/* Filter order */
+
+form#filter-order-hold .filter-header {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+#td-logo,
+#td-kh i,
+#td-code>span,
+.dataTables_filter span,
+#holded-time,
+#td-cmnd {
+    display: none;
+}
+
+.td-price {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.logo-bank img {
+    width: 20%;
+}
+
+#td-kh>span {
+    display: block;
+}
+
+.datatable-header {
+    display: flex;
+}
+
+.dataTables_filter input {
+    width: 23.5rem;
+}
+
+.table-mobile {
+    display: none!important;
+}
+
+h3 {
+    color: rgba(185, 181, 181, 0.726);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.slide_show {
+    /* position: fixed; */
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar {
+        position: fixed;
+        z-index: 9999;
+        width: 100%;
+    }
+    .content-wrapper {
+        margin-top: 50px;
+    }
+    .cmnd-not-email {
+        position: initial!important;
+        text-align: right;
+        margin-right: 0!important;
+    }
+    #td-cmnd i {
+        display: initial!important;
+    }
+    body.sidebar-mobile-main {
+        overflow: hidden;
+        overflow-y: hidden;
+    }
+    #status-table.status-dsmua-admin {
+        top: 32px;
+        padding: 0 10px 0 0!important;
+    }
+    .td-address-yeucaunhanh {
+        position: absolute;
+        right: 0;
+        top: 55px;
+        padding: 0 10px 0 0!important;
+    }
+    .table-list-bank #td-active-bank {
+        top: 55px;
+    }
+    .table-list-bank .adress-list-bank,
+    #td-active-bank {
+        position: absolute;
+        right: 0;
+        top: 34px;
+    }
+    #td-active-bank i {
+        font-size: 16px;
+    }
+    .action-list-bank {
+        right: 15px!important;
+    }
+    .card-chitietdon .form-group {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    #td-order {
+        flex-direction: initial;
+    }
+    .holded-time-no-action {
+        right: 0px!important;
+    }
+    .code-order-hold {
+        top: 0!important;
+    }
+    .filter-order {
+        margin-top: 0px;
+    }
+    .action-table-yeucaunhanh {
+        right: 15px!important;
+    }
+    .reason-leng {
+        white-space: normal;
+        height: 66px;
+        overflow: scroll;
+    }
+    .card.card-sidebar-mobile.nav-menu-main {
+        overflow: scroll!important;
+        height: 350px!important;
+        display: flex!important;
+        flex-direction: column!important;
+    }
+    /* order hold */
+    td#status-table\ status-table-ctv {
+        top: 2px;
+        right: 110px;
+        position: absolute;
+    }
+    td#td-price.td-price-order-admin {
+        top: 65px;
+    }
+    td#td-time-hold {
+        position: absolute;
+        right: 0;
+        top: 26px;
+    }
+    /* end */
+    /* order create */
+    .form-group.text-note.text-left {
+        font-size: 11px;
+    }
+    [class*=bg-]:not(.bg-transparent):not(.bg-light):not(.bg-white):not(.btn-outline):not(body) {
+        color: #000;
+    }
+    .form-tuvannhanh {
+        background-color: #EEEEEE;
+    }
+    .form-tuvannhanh label {
+        text-align: left
+    }
+    /* end */
+    #filter-status-ctv {
+        border-radius: 10px;
+        height: 34px;
+    }
+    .table-sm td,
+    .table-sm th {
+        padding: 5px 0.75rem;
+    }
+    .form-filter-keyword img {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .form-control.filter-keyword {
+        width: 11rem;
+        border-radius: 10px;
+        padding-left: 30px;
+        font-size: 12px;
+        height: 34px;
+    }
+    #td-cmnd img {
+        margin-top: -2px;
+    }
+    #holded-time {
+        font-size: 15px;
+        top: 0px;
+        right: 10px;
+        position: absolute;
+    }
+    #td-cmnd {
+        position: absolute;
+        right: 0;
+        top: 96px;
+        padding-top: 0px;
+        margin-right: 12px;
+    }
+    #td-order {
+        padding: 0 10px!important;
+    }
+    #holded-time {
+        color: #FF5555;
+    }
+    /* Header */
+    .td-price_reduce {
+        color: red;
+    }
+    div#table_id_length {
+        display: none;
+    }
+    #td-price {
+        position: absolute;
+        right: 0;
+        top: 90px;
+        text-align: right;
+    }
+    .datatable-scroll {
+        overflow-x: inherit;
+    }
+    .breadcrumb,
+    #td-code {
+        display: none;
+    }
+    td#td-reason {
+        white-space: initial!important;
+        display: inline;
+        width: 372px;
+    }
+    .td-reason-response {
+        border-top: 1px solid #CCC;
+        padding-top: 10px;
+    }
+    .menu-user-header-response {
+        display: none!important;
+    }
+    .list-info-user,
+    #holded-time,
+    #td-cmnd,
+    #time-update-status,
+    .table-list-bank i {
+        display: block!important;
+    }
+    .logo-bank img {
+        width: 50%;
+    }
+    #td-code.code-not-action {
+        right: 10px!important;
+    }
+    .navbar.navbar-expand-lg.navbar-light {
+        display: none;
+    }
+    .card-header.header-elements-inline {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-header.header-elements-inline .header-elements {
+        display: none!important;
+        padding-bottom: 0px!important;
+    }
+    .datatable-header {
+        display: flex;
+    }
+    .card-header.header-elements-inline button {
+        margin-left: 5px;
+    }
+    .datatable-selection-single_length,
+    #table_id_length {
+        margin-left: 10px;
+    }
+    #adress-table,
+    #created-table {
+        display: none!important;
+    }
+    div#navbar-mobile .dropdown-menu .dropdown-menu-right {
+        display: block;
+    }
+    table.datatable-selection-single .text-center .list-icons {
+        position: absolute;
+    }
+    table.datatable-selection-single .text-center .table-responsive-stack-thead {
+        display: none!important;
+    }
+    #status-table,
+    #action-table {
+        border: border;
+        border: none!important;
+    }
+    /* tr card */
+    .datatable-header {
+        border-bottom: none!important;
+    }
+    table.datatable-selection-single tr {
+        background-color: #FFF;
+        /* border: 1px solid #707070; */
+        display: flex;
+        position: relative;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-clip: border-box;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.28);
+        -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.28);
+        box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.28);
+    }
+    table.datatable-selection-single tr td:first-child {
+        border-top: none;
+    }
+    */
+    /* card list order */
+    .img-bank img {
+        width: 50%;
+    }
+    .dataTables_length {
+        display: none;
+    }
+    .card-header.header-elements-inline .select2.select2-container.select2-container--default {
+        width: 140px!important;
+        font-size: 10px;
+    }
+    .dataTables_filter input,
+    .card-header.header-elements-inline .select2.select2-container.select2-container--default select,
+    .card-body .col-12.pl-0.pr-0 input {
+        border-radius: 10px;
+    }
+    /*  */
+    .content-wrapper .content {
+        padding: 0px!important
+    }
+    .datatable-header {
+        padding-top: 0px!important;
+    }
+    .dataTables_filter input {
+        width: 11rem;
+        font-size: 12px;
+    }
+    select#filter-status {
+        border-radius: 10px;
+        height: 34px;
+    }
+    .content>.card {
+        background-color: #f5f5f5!important;
+        border: none!important;
+    }
+    form.filter-header {
+        display: none!important;
+    }
+    /*  Datatable td tr response */
+    table.datatable-selection-single>thead>tr {
+        display: none;
+    }
+    #td-logo,
+    #td-kh i,
+    #td-address i {
+        display: block;
+    }
+    #td-kh i,
+    td#td-address i {
+        padding-top: 2px;
+        width: 12px;
+    }
+    #td-kh>span {
+        display: flex;
+    }
+    #td-count,
+    #td-order-bank {
+        display: none;
+    }
+    table.datatable-selection-single td {
+        border-top: none!important;
+    }
+    td#action-table {
+        position: absolute;
+        right: 0;
+    }
+    #status-table {
+        position: absolute;
+        right: 0;
+        top: 53px;
+        padding-top: 0px;
+    }
+    td.td-kh-order,
+    #status-table {
+        padding-top: 0px;
+    }
+    #td-logo {
+        padding-bottom: 0;
+    }
+    #td-order-stk {
+        font-size: 18px;
+        color: #7C2929;
+        width: 70%;
+    }
+    span#code-order {
+        display: block;
+        width: 30%;
+        text-align: right;
+        font-size: 13px;
+        padding-top: 3px;
+    }
+    #td-code-hold {
+        position: absolute;
+        right: 0;
+    }
+    #td-logo img {
+        width: 12%!important;
+    }
+    .logo-orderhold {
+        padding-bottom: 0px;
+    }
+    td#td-kh {
+        font-size: 14px;
+    }
+    #td-kh-email {
+        width: 62%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block!important;
+    }
+    #td-kh-email i {
+        display: inline;
+    }
+    .code-action-hold {
+        right: 12px!important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .datatable-selection-single_filter label span {
+        display: none;
+    }
+<<<<<<< HEAD
+
+    ul.pagination {
+        display: flex;
+        flex-flow: wrap;
+=======
+    td#td-reason {
+        width: 330px;
+>>>>>>> 89716365cdda922e216497d367a002404e9780a1
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .dataTables_filter input {
+        width: 10.5rem;
+    }
+    td#td-reason {
+        width: 275px;
+    }
+
+    ul.pagination {
+        display: flex;
+        flex-flow: wrap;
+    }
+}
+
+h5.card-title.pb-3 {
+    font-weight: bold;
+}
+
+h5.card-title {
+    font-weight: bold;
+}
+
+h5#exampleModalLabel {
+    font-weight: bold;
+}
